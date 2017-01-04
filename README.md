@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Build Images:
+docker-compose build
 
-Things you may want to cover:
+Start Rails and MySQL Instances:
+docker-compose up
 
-* Ruby version
+Execute Rails Docker Terminal:
+docker-compose exec rails-docker bash
 
-* System dependencies
+Run Rails Server Inside Rails Docker and Make It Accessible From Local Device:
+rails server -b 0.0.0.0
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Execute MySQL Docker Terminal:
+docker-compose exec mysql bash
