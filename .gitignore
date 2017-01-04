@@ -12,9 +12,11 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-.idea/
-.settings/
-docker-compose.yml
 
 # Ignore Byebug command history file.
 .byebug_history
+
+#Ignore Other Files
+.idea/*
+.settings/
+docker-compose.yml
