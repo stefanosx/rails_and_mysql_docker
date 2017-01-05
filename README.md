@@ -1,9 +1,6 @@
 # README
 
-Build Images:
-docker-compose build
-
-Start Rails and MySQL Instances:
+Build Docker Images Plus Start Rails and MySQL Instances:
 docker-compose up
 
 Execute Rails Docker Terminal:
